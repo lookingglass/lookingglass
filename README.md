@@ -1,5 +1,5 @@
 ```
-lookingglass@linux:~/stuff/github$ cat skills.md | awk -F'|' '{printf "%-15s | %s\n", $1, $2}'
+lookingglass@linux:~/stuff/github$ cat skills.txt | awk -F'|' '{printf "%-15s | %s\n", $1, $2}'
 ```
 
 ```
